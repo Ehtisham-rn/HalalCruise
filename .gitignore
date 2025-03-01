@@ -1,0 +1,15 @@
+# Ignore node_modules and environment files
+node_modules/
+.env
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+# Ignore logs
+logs/
+*.log
+
+# Ignore build files
+/dist
+/build
+FirebaseConfig.tsx
