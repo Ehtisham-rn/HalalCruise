@@ -1,0 +1,71 @@
+# Privacy Policy
+
+**Last Updated: February 22, 2025**
+
+## 1. Information We Collect
+
+We collect information to provide you with a better experience and to improve our services. The types of information we collect include:
+
+### A. Information You Provide
+- **Profile Information:** When you choose to create a profile or report a problem, we may collect media (e.g., images) you upload, such as profile photos or images submitted with a report.
+
+### B. Information Collected Automatically
+- **Device and Usage Data:** We may collect technical information such as your device type, operating system, IP address, and app usage patterns (e.g., pages viewed, time spent) to optimize the App.
+- **Media Permissions:** With your consent, we access your device's media (e.g., camera or photo gallery) to allow you to upload profile pictures or images for reporting issues.
+
+### C. Information Not Requiring Authentication
+- All cruise details and destination information are accessible without authentication. No personal data is required to browse this content.
+
+---
+
+## 2. How We Use Your Information
+
+We use the information we collect for the following purposes:
+
+- **To Provide Services:** Display cruise details, manage your favorites (if authenticated), and allow profile customization.
+- **To Improve the App:** Analyze usage data to enhance functionality, fix bugs, and improve user experience.
+- **To Respond to You:** Address reports or inquiries you submit, using any images or details you provide.
+- **To Ensure Security:** Protect against unauthorized access or misuse of the App.
+
+---
+
+## 3. How We Share Your Information
+
+We do not sell, trade, or rent your personal information to third parties. We may share your information in the following limited circumstances:
+
+- **Service Providers:** With trusted third-party providers (e.g., cloud storage, analytics) who assist us in operating the App, under strict confidentiality agreements.
+- **Legal Obligations:** If required by law, regulation, or legal process (e.g., a court order), we may disclose your information.
+
+---
+
+## 4. Your Choices and Permissions
+
+- **Media Permissions:** You can grant or revoke access to your camera and photo gallery via your device settings. Without permission, you won’t be able to upload images for profiles or reports.
+- **Authentication:** Adding cruises to favorites requires authentication. You can use this feature optionally; all other content remains accessible without logging in.
+
+---
+
+## 5. Data Security
+
+We implement reasonable security measures (e.g., encryption, access controls) to protect your information from unauthorized access, loss, or misuse. However, no method of transmission over the internet or electronic storage is 100% secure, and we cannot guarantee absolute security.
+
+---
+
+## 6. Data Retention
+
+- **Profile and Favorites Data:** We retain your profile information and favorites list as long as you maintain an account or until you delete it.
+- **Report Data:** Images and details from problem reports are kept only as long as necessary to resolve the issue, then deleted.
+- **Usage Data:** Anonymized usage data may be retained indefinitely for analytics purposes.
+
+---
+
+## 7. Children’s Privacy
+
+Halal Cruise is not intended for children under 13 years of age. We do not knowingly collect personal information from children under 13. If we learn such data has been collected, we will delete it promptly.
+
+---
+
+## 8. Changes to This Privacy Policy
+
+We may update this Privacy Policy from time to time. The updated version will be posted in the App with a revised "Last Updated" date. We encourage you to review it periodically. Continued use of the App after changes constitutes acceptance of the new terms.
+
