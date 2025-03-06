@@ -23,7 +23,7 @@ import {
   RecaptchaVerifier,
   signInWithPhoneNumber,
 } from "firebase/auth";
-import { FIREBASE_AUTH, FIREBASE_DB } from "../../FirebaseConfig";
+
 import {
   updateDoc,
   serverTimestamp,
@@ -34,6 +34,7 @@ import {
 import * as ImagePicker from "expo-image-picker";
 import * as MediaLibrary from "expo-media-library";
 import { getStorage, ref, uploadBytes, getDownloadURL } from "firebase/storage";
+import { FIREBASE_AUTH } from "../Firebase";
 
 const { width, height } = Dimensions.get("window");
 

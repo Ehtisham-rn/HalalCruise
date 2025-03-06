@@ -11,13 +11,14 @@ import {
   Image,
 } from "react-native";
 import { collection, query, where, getDocs } from "firebase/firestore";
-import { FIREBASE_DB } from "../../FirebaseConfig";
+
 import Colors from "../Compenents/Colors/Colors";
 import ProfileComponent from "../Compenents/Re-useable-Components/ProfileComponent";
 import LottieView from "lottie-react-native";
 import animationData2 from "../Compenents/Assets/loading.json";
 import MainLayout from "../Components/MainLayout";
 import { CardStyles } from "../Compenents/Styles/Styles";
+import { FIREBASE_DB } from "../Firebase";
 
 
 

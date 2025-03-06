@@ -26,7 +26,7 @@ import {
   uploadBytes,
   uploadBytesResumable,
 } from "firebase/storage";
-import { FIREBASE_AUTH, FIREBASE_DB } from "../../FirebaseConfig";
+
 import {
   arrayUnion,
   collection,
@@ -41,6 +41,7 @@ import * as MediaLibrary from "expo-media-library";
 import LottieView from "lottie-react-native";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { ActivityIndicator } from "react-native-paper";
+import { FIREBASE_AUTH } from "../Firebase";
 const { width, height } = Dimensions.get("window");
 const screenWidth = width;
 const screenHeight = height;

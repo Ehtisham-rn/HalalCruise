@@ -20,8 +20,9 @@ import auth from "@firebase/auth";
 
 import { useNavigation } from "@react-navigation/native";
 import { signInWithEmailAndPassword } from "firebase/auth";
-import { FIREBASE_AUTH } from "../../FirebaseConfig";
+
 import AsyncStorage from "@react-native-async-storage/async-storage";
+import { FIREBASE_AUTH } from "../Firebase";
 
 const { width, height } = Dimensions.get("window");
 

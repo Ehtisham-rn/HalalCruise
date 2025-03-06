@@ -2,7 +2,7 @@ import { StyleSheet, Text, View, Image, TouchableOpacity } from "react-native";
 import React, { useEffect, useState } from "react";
 import Colors from "../Colors/Colors";
 import { useFocusEffect, useNavigation } from "@react-navigation/native";
-import { FIREBASE_AUTH, FIREBASE_DB } from "../../../FirebaseConfig";
+
 import { initializeApp } from "firebase/app";
 import { getAuth, onAuthStateChanged } from "firebase/auth";
 import {
@@ -14,6 +14,7 @@ import {
   getDoc,
 } from "firebase/firestore";
 import AsyncStorage from "@react-native-async-storage/async-storage";
+import { FIREBASE_AUTH, FIREBASE_DB } from "../../Firebase";
 
 const ProfileComponent = () => {
   const navigation = useNavigation();

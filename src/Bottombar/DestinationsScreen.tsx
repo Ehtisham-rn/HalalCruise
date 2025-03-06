@@ -18,12 +18,13 @@ import Colors from '../Compenents/Colors/Colors';
 import ProfileComponent from '../Compenents/Re-useable-Components/ProfileComponent';
 import { useNavigation } from "@react-navigation/native";
 import { collection, onSnapshot } from "firebase/firestore"; // Changed import for onSnapshot
-import { FIREBASE_DB } from '../../FirebaseConfig';
+
 import LottieView from "lottie-react-native";
 import animationData2 from "../Compenents/Assets/loading.json";
 import animationData from "../Compenents/Assets/Animation - 1709403538718.json";
 import MainLayout from '../Components/MainLayout';
 import { CardStyles } from '../Compenents/Styles/Styles';
+import { FIREBASE_DB } from '../Firebase';
 
 
 const { width, height } = Dimensions.get("window");

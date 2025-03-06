@@ -17,7 +17,7 @@ import {
   KeyboardAwareScrollViewProps,
 } from "react-native-keyboard-aware-scroll-view";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { FIREBASE_AUTH, FIREBASE_DB } from "../../FirebaseConfig";
+
 import { getStorage, ref, uploadBytes, getDownloadURL } from "firebase/storage";
 import {
   updateDoc,
@@ -30,6 +30,7 @@ import LottieView from "lottie-react-native";
 import animationData from "../Compenents/Assets/uploaded.json";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import MainLayout from "../Components/MainLayout";
+import { FIREBASE_AUTH, FIREBASE_DB } from "../Firebase";
 const ReportProblem = () => {
   const [image, setImage] = useState(null);
   const [displayName, setDisplayName] = useState("");

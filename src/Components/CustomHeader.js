@@ -4,9 +4,10 @@ import Colors from '../Compenents/Colors/Colors';
 import logo1 from '../Compenents/Assets/logo-white.png';
 import { useFocusEffect, useNavigation } from '@react-navigation/native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { FIREBASE_AUTH, FIREBASE_DB } from '../../FirebaseConfig';
+
 import { doc, getDoc } from 'firebase/firestore';
 import { onAuthStateChanged } from 'firebase/auth';
+import { FIREBASE_AUTH, FIREBASE_DB } from '../Firebase';
 
 const { width, height } = Dimensions.get('window');
 

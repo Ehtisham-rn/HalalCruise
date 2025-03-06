@@ -12,7 +12,7 @@ import {
   Alert,
 } from "react-native";
 import { doc, getDoc } from "firebase/firestore";
-import { FIREBASE_DB } from "../../FirebaseConfig";
+
 import Colors from "../Compenents/Colors/Colors";
 import ProfileComponent from "../Compenents/Re-useable-Components/ProfileComponent";
 import { openComposer } from "react-native-email-link";
@@ -22,6 +22,7 @@ import { AntDesign } from "@expo/vector-icons";
 import {  useDispatch, useSelector } from "react-redux";
 import { addToFavorites , removeFromFavorites } from "../Redux/actions";
 import MainLayout from "../Components/MainLayout";
+import { FIREBASE_DB } from "../Firebase";
 
 
 const { width, height } = Dimensions.get("window");

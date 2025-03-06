@@ -18,7 +18,7 @@ import {
   KeyboardAwareScrollViewProps,
 } from "react-native-keyboard-aware-scroll-view";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { FIREBASE_AUTH, FIREBASE_DB } from "../../FirebaseConfig";
+
 import { getStorage, ref, uploadBytes, getDownloadURL } from "firebase/storage";
 import {
   updateDoc,
@@ -33,6 +33,7 @@ import LottieView from "lottie-react-native";
 import animationData from "../Compenents/Assets/uploaded.json";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import MainLayout from "../Components/MainLayout";
+import { FIREBASE_AUTH, FIREBASE_DB } from "../Firebase";
 
 const RequestDocs = () => {
   const auth = FIREBASE_AUTH;
@@ -86,7 +87,7 @@ const RequestDocs = () => {
     }
   };
   return (
-    <MainLayout>
+    <MainLayout refreshing={false} onRefresh={() => {}}>
     <SafeAreaView style={styles.mainContainer}>
       <Modal
         animationType="slide"
@@ -162,14 +163,13 @@ const RequestDocs = () => {
           <TextInput
             label="Request Information"
             mode="outlined"
-            outlineColor={Colors.Primary} // Setting the color
+            outlineColor={Colors.Primary}
             activeOutlineColor={Colors.Primary}
-            style={{ marginBottom: 10 }}
+            style={{ marginBottom: 10, height: 150 }}
             onChangeText={(text) => setDisplayName(text)}
             value={displayName}
             multiline
-            numberOfLines={5} // Set the number of lines to 5
-            style={{ height: 150 }}
+            numberOfLines={5}
             autoFocus
           />
         </KeyboardAvoidingView>
@@ -199,7 +199,7 @@ const { width, height } = Dimensions.get("window");
 const styles = StyleSheet.create({
   mainContainer: {
     flex: 1,
-    backgroundColor: Colors.White,
+    backgroundColor: Colors.white,
   },
   Container1: {
     height: height * 0.12,
@@ -209,7 +209,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
   text: {
-    color: Colors.DefaultFontColor,
+    color: Colors.MoveDefaultFontColor,
     fontSize: 15,
     fontWeight: "600",
   },

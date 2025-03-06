@@ -14,7 +14,7 @@ import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { Feather } from "@expo/vector-icons";
 import { MaterialIcons } from "@expo/vector-icons";
 import { Entypo } from "@expo/vector-icons";
-import { FIREBASE_AUTH, FIREBASE_DB } from "../../FirebaseConfig";
+
 import {
   getDownloadURL,
   getStorage,
@@ -32,6 +32,8 @@ import {
 } from "firebase/firestore";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import MainLayout from "../Components/MainLayout";
+import { FIREBASE_AUTH, FIREBASE_DB } from "../Firebase";
+
 
 const ProfileScreen = () => {
   const navigation = useNavigation();

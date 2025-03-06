@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from "react";
 import { View, Text, ScrollView, StyleSheet, TouchableOpacity, Image, Dimensions } from "react-native";
 import { collection, onSnapshot, query, where, addDoc, getDocs } from "firebase/firestore";
-import { FIREBASE_DB } from "../../FirebaseConfig";
+
 import LottieView from "lottie-react-native";
 import animationData from "../Compenents/Assets/Animation - 1709403538718.json"; // Your animation file
 import animationData2 from "../Compenents/Assets/loading.json"; // Loading animation file
 import ProfileComponent from "../Compenents/Re-useable-Components/ProfileComponent";
 import { useNavigation } from "@react-navigation/native";
 import MainLayout from "../Components/MainLayout";
+import { FIREBASE_DB } from "../Firebase";
 
 
 
